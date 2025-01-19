@@ -1,0 +1,29 @@
+# Ẩn các file cấu hình bảo mật
+.env
+.env.local
+.env.*.local
+
+# Ẩn các thư mục chứa các tệp nhạy cảm như khóa API, chứng chỉ, v.v.
+config/
+secrets/
+keys/
+certs/
+
+# Ẩn các file log
+*.log
+
+# Ẩn các thư mục node_modules hoặc các thư viện khác
+node_modules/
+
+# Ẩn các tệp hệ thống của OS hoặc IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Ẩn các tệp tạo ra trong quá trình build
+/dist
+/build
+
+# Ẩn các tệp backup hoặc tạm thời
+*.bak
+*.swp
