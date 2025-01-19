@@ -4,7 +4,6 @@
 .env.*.local
 
 # Ẩn các thư mục chứa các tệp nhạy cảm như khóa API, chứng chỉ, v.v.
-config/
 secrets/
 keys/
 certs/
